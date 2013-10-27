@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Phil Parker (@parker0phil)">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.png">
 
     <title>About - Swiss Cheese Project</title>
 
@@ -26,27 +26,31 @@
 
     <div class="container">
       <div class="header">
-        <!--ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul-->
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="">About</a></li>
+          <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sessions <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="sc2013.html">Software Craftsmanship 2013</a></li>
+        </ul>
+      </li>
+        </ul>
         <h3 class="text-muted">Swiss Cheese Project</h3>
       </div>
 
       <div class="jumbotron">
         <h1>About Swiss Cheese Project</h1>
         <p class="lead">Swiss Cheese Project is a hands-on, interactive web application security Crackathon.</p>
-        <p><a class="btn btn-lg btn-success" href="https://www.swisscheeseproject.com">I'm in a Session now! (Let's get started)</a></p>
+        <p><a class="btn btn-lg btn-success" disabled href="https://www.swisscheeseproject.com">No session currently running</a></p>
       </div>
 
       <div class="row marketing">
         <div class="col-lg-6">
           <h4>Overview</h4>
-          <p>Swiss Cheese Project is a <a href="https://www.google.co.uk/search?q=deliberately+vulnerable+web+applications">Deliberately Vulnerable Web Application</a>. It's designed to give people an opportunity to investigate, probe and discuss fixes for, common web application vulnerabilities</p>
+          <p>Swiss Cheese Project is web application security session based around a <a href="https://www.google.co.uk/search?q=deliberately+vulnerable+web+applications">Deliberately Vulnerable Web Application</a>. It's designed to give people an opportunity to investigate, probe and discuss fixes for, common web application vulnerabilities</p>
 
  <h4>History</h4>
-          <p>The first Swiss Cheese Project session was run at <a href="http://www.codemanship.co.uk/softwarecraftsmanship/">Software Craftsmanship 2013 </a> (yes that's you!!)</p>
+          <p>The first Swiss Cheese Project session was run at <a href="sc2013.html">Software Craftsmanship 2013 </a>. If you are interested in having a Swiss Cheese Project session run at your conference, event or company please contact <a href="https://twitter.com/parker0phil">@parker0phil</a></p>
 
         </div>
 
@@ -70,5 +74,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
